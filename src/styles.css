@@ -95,9 +95,16 @@ section.restaurants {
   background-color: #f8f8f8;
   text-align: center;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .card {
   background-color: #fff;
   margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card-body {
   padding: 30px;
@@ -110,7 +117,7 @@ section.restaurants {
   grid-gap: 10px;
 }
 img.fav-restaurants {
-  max-width: 50%;
+  width: 100%;
 }
 .btn {
   display: block;
@@ -211,6 +218,12 @@ footer a {
   }
   main p {
     font-size: 14px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
   footer {
     font-size: 13px;
