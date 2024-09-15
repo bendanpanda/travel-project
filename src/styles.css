@@ -152,6 +152,13 @@ main p {
   line-height: 1.5;
   color: #272044;
 }
+section.instagram {
+  text-align: center;
+}
+.instagram-embeds {
+  margin: 30px;
+  padding: 10px 50px;
+}
 
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
